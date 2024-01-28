@@ -1,0 +1,358 @@
+/* RESET CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url(../img/bg.png.jpeg); */
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.625);
+    
+}
+
+.header img {
+    width: 50%;
+    height: 55px;
+    margin: 10px 10px 20px 30px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h4 {
+    margin: 30px 0 0 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #3e7e55;
+}
+
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    margin: 30px 50px;
+    width: 110px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    border: 3px solid #aadcb6;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 10px
+}
+ 
+.nav ul li:hover {
+    background-color: #aadcb6;
+    transition: .3s;
+    width: 110px;
+    height: 15px;
+    border-radius: 20px;
+
+}
+
+
+/* CONTENT */
+body .container p {
+    font-size: 14px;
+
+}
+
+.teks {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teks h1 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #3e7e55;
+}
+
+.teks p {
+    line-height: 40px;
+    color: grey;
+}
+
+
+.content {
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 p {
+    margin-top: -60px;
+    color: black;
+}
+
+.section1 {
+    backdrop-filter: blur(20px);
+    background-color: #7abd875f;
+    width: 50%;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+}
+
+.section1 img {
+    max-width: 300px;
+    rotate: 90deg;
+    margin: -60px 0 10px 0;
+    box-shadow: 10px -10px 20px  black;
+    border-radius: 10px;
+}
+
+.section1 hr {
+    width: 200px;
+    margin: 30px auto;
+    height: 2px;
+    background-color: grey;
+}
+
+.section1 .review {
+    margin: 20px auto;
+    width: 70%;
+}
+
+.pp {
+    display: flex;    
+}
+
+.nama h3 {
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 0 10px;}
+
+.nama h5 {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+    color: rgb(81, 81, 81);
+}
+
+.section1 .profil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+
+
+/* SECTION 2 */
+.section2 { 
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #7abd875f;
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+}
+
+.section2 h3 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contactUs {
+    text-align: center;
+}
+.contactUs h3 {
+    font-weight: bolder;
+}
+
+.contactUs div {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contactUs select {
+    width: 260px;
+    height: 30px;
+}
+
+.contactUs form {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.contactUs h4 {
+    margin-bottom: 5px;
+}
+.contactUs form input, select {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.contactUs form .submit {
+    width: 300px;
+    height: 35px;
+    background-color: #7ea00e;
+    border: 0px ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contactUs form .submit:hover {
+    background-color: #3e7e55;
+    transition: .3s;
+}
+
+
+
+
+/* mobile */
+
+@media screen and (max-width: 576px){
+
+    .header {
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+    
+    .logo {
+        margin: 0 auto;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+
+    .logo h4 {
+        font-size: 20px;
+    }
+
+    .nav ul {
+        width: 100%;
+    }
+
+    .nav ul li {
+        margin: 0 20px;
+        font-size: 10px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .nav ul li:hover {
+        width: 100px;
+        height: 15px;
+    }
+
+    .teks {
+        margin-top: 150px;
+    }
+
+    .teks h1 {
+        font-size: 20px;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 00px;
+        
+    }
+
+
+    .section1{
+        width: 90%;
+    }
+    
+    .section1 img {
+        position: inherit;
+        width: 50%;
+        margin: 30px auto;
+
+    }
+    
+    .section1 p {
+        margin: 0 auto;
+    }
+
+    .section1 .review {
+        width: 90%;
+        margin-bottom: 30px;
+    
+    }
+
+
+    .section2 {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+
+    
+
+}
