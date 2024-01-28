@@ -264,6 +264,25 @@ body .container p {
     transition: .3s;
 }
 
+.footer {
+    width: 100%;
+    background-color: #3e7e55;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.footer div {
+    font-size: 20px;
+    color: #aadcb6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer img {
+    margin-top: -50px;
+    cursor: pointer;
+}
+
 
 
 
