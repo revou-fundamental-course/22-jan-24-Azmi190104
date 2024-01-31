@@ -38,47 +38,6 @@ function prevSlide() {
 setInterval(nextSlide, 3000);
 
 
-
-//     FORM VALIDATION
-
-// const submit = document.querySelector('.submit')
-// var getValid = document.querySelectorAll('.username, .email')
-// console.log(getValid)
-
-// function validate(event) {
-//     event.preventDefault(); // Mencegah formulir melakukan submit bawaan
-
-//     var name = document.querySelector('.username').value;
-//     var email = document.querySelector('.email').value;
-//     var nameError = document.querySelector('.validation');
-//     var emailError = document.querySelector('.emailError');
-//     var isValid = true;
-
-//     // Validasi nama
-//     if (name === "") {
-//       nameError.innerHTML = "Nama harus diisi";
-//       isValid = false;
-//     } else {
-//       nameError.innerHTML = "";
-//     }
-
-//     // Validasi email
-//     if (email === "") {
-//       emailError.innerHTML = "Email harus diisi";
-//       isValid = false;
-//     } else if (!isValidEmail(email)) {
-//       emailError.innerHTML = "Email tidak valid";
-//       isValid = false;
-//     } else {
-//       emailError.innerHTML = "";
-//     }
-
-//     if (isValid) {
-//       // Lakukan sesuatu setelah formulir valid
-//       alert("Formulir berhasil disubmit!");
-//     }
-// }
-
 const submit = document.querySelector('.submit')
 const usName = document.querySelector('.username')
 const email = document.querySelector('.email')
@@ -102,11 +61,6 @@ submit.addEventListener('click', function(e){
         allValid.innerHTML = ''
     }
 
-    // if(getUsName === ''){
-    //     valid.innerHTML = 'data tidak boleh kosong'
-    // }
-    // if(getEmail === ''){
-    //     emailError.innerHTML = 'data tidak boleh kosong'
-    // }
+   
  
 })
