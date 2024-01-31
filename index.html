@@ -41,7 +41,15 @@
 
             <!-- SECTION1 -->
             <div class="section1">
-                <img src="img/sayuran.png.jpeg" alt="">
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                      <div class="slide"><img src="img/sayuran.png.jpeg" alt="Slide 1"></div>
+                      <div class="slide"><img src="img/sayuran2.jpeg" alt="Slide 2"></div>
+                      <div class="slide"><img src="img/sayuran3.jpeg" alt="Slide 3"></div>
+                    </div>
+                    <div class="prev" onclick="prevSlide()">&#10094;</div>
+                    <div class="next" onclick="nextSlide()">&#10095;</div>
+                </div>
                 <p>"setiap hari beli sayur yang fresh disini"</p>
                 <hr>
                 <div class="review">
@@ -60,11 +68,11 @@
                 <aside class="contactUs">
                     <h3>Contact Us</h3>
                     <div>Penjual akan menghubungi anda 1 X 24 jam setelah data kami terima</div>
-                    <form action="">
+                    <form action="" >
                         <h4>Your Name</h4>
-                        <input type="username">
+                        <input type="username" class="username">
                         <h4>Email Address</h4>
-                        <input type="username">
+                        <input type="username" class="email">
                         <h4>pilih pesanan anda</h4>
                         <select name="" id="">
                             <option value="">bayam</option>
@@ -72,7 +80,10 @@
                             <option value="">kentang</option>
                             <option value="">wortel</option>
                         </select>
-                        <input type="submit" class="submit">
+                        <p class="all"></p>
+                        <p class="validation"></p>
+                        <p class="emailError"></p>
+                        <input type="submit"  class="submit">
                     </form>
                 </aside>
             </div>
